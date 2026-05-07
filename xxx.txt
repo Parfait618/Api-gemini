@@ -1,0 +1,10 @@
+​.z,.r,26,0,.s,24,.z,a,.y,r,.p,.a,.m,.j,1,2,.m,3,.h,.w,6,.l,.q,9,.c,.f,17,.x,.s,.l,2,.q,2,.t,.y,.z,.m,
+
+
+
+Voici les règles de ton système d'offuscation, prêtes à être copiées pour ton futur code de décodage :
+​Séparateur : Chaque élément est séparé par une virgule (,).
+​Majuscules : Elles sont précédées d'un point (.) et la lettre est décalée à la fin de l'alphabet (A devient z, B devient y, etc.).
+​Lettres minuscules : Elles sont remplacées par leur position dans l'alphabet en partant de 0 (a=0, b=1, ..., z=25).
+​Chiffres : Ils sont remplacés par une lettre minuscule de a à j (0=a, 1=b, 2=c, ..., 9=j).
+​Caractères Spéciaux : S'il y en a (comme un tiret), ils restent identiques entre deux virgules.
